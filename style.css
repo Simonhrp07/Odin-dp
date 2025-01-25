@@ -1,0 +1,94 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(./Assets/font/Roboto/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto",sans-serif,serif;
+}
+
+body{
+    display: flex;
+
+}
+
+.header-block{
+    display: flex;
+    width: 100vh;
+    min-height: 200px;
+    flex: 1 0 0;
+    flex-direction: column;
+    background: #1F2937;
+    gap: 4.5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: normal;
+}
+
+.header-link{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.header-link a{
+    color: #a8a8a8;
+}
+
+.header-info{
+    margin-top: 15px;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex: 1 0 0;  
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.block{
+    min-height: 150px;
+    color: #a8a8a8;
+    font-size: 18px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+.right img{
+    width: 500px;
+}
+
+.main-title{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.left button{
+    background: #3862F6;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
