@@ -103,6 +103,7 @@ body{
     margin-top: 2.5rem;
     margin-bottom: 5rem;
     gap: 2rem;
+    min-width: 100vh;
 }
 
 .info-title{
