@@ -14,14 +14,15 @@
 
 body{
     display: flex;
-
+    flex-direction: column;
 }
+
+/* HEADER BLOCK */
 
 .header-block{
     display: flex;
-    width: 100vh;
+    width: 100%;
     min-height: 200px;
-    flex: 1 0 0;
     flex-direction: column;
     background: #1F2937;
     gap: 4.5rem;
@@ -54,25 +55,26 @@ body{
 .header-info{
     margin-top: 15px;
     margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex: 1 0 0;  
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
     align-items: center;
+    width: 75%;
+    
 }
 
-.block{
-    min-height: 150px;
-    color: #a8a8a8;
-    font-size: 18px;
-}
 
 .left{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 350px;
+    width: 450px;
+    min-height: 150px;
+    color: #a8a8a8;
+    font-size: 18px;
 }
+
 
 .right img{
     width: 500px;
@@ -91,4 +93,48 @@ body{
     width: 100px;
     border-radius: 10px;
     border: solid black 1px;
+}
+
+/* INFORMATION BLOCK */
+ 
+.information-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    gap: 2rem;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 auto 0 auto;
+}
+
+.info-block{
+    display: flex;
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+.info-block ul{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.info-img{
+    width: 250px;
+    min-height: 250PX;
+    border: 3px solid rgb(6, 84, 185);
+    border-radius: 20px;
+}
+
+.info-block li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 0;
+    gap: 0.5rem;
 }
