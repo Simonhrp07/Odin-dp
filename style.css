@@ -21,7 +21,7 @@ body{
 
 .header-block{
     display: flex;
-    width: 100%;
+    min-width: 100vh;
     min-height: 200px;
     flex-direction: column;
     background: #1F2937;
@@ -101,7 +101,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 5rem;
     gap: 2rem;
 }
 
@@ -137,4 +137,35 @@ body{
     text-align: center;
     flex: 0 0 0;
     gap: 0.5rem;
+}
+
+/* QUOTE BLOCK */
+
+
+.quote-block{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-wrap: stable;
+    text-align: center;
+    min-height: 200px;
+    width: 75%;
+    margin-top: 2rem;
+}
+
+.credit{
+    margin: 1rem auto 1rem 80%;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
